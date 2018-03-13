@@ -15,4 +15,4 @@ in query_expansion_param_topics.1-50.xml, please set the <index> ... </index> to
 
 Normalisation formula:
 
-$$P(t_j|Q) = \lambda P_{ML}(t_j|Q) + (1-\lambda)\sum P(t_j|t_i)P_{ML}(t_i|Q)$$
+P(tj|Q)=λPML(tj|Q)+(1−λ)∑P(tj|ti)PML(ti|Q)
