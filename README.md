@@ -14,4 +14,5 @@ query_expansion_param_topics.1-50.xml
 in query_expansion_param_topics.1-50.xml, please set the <index> ... </index> to the path where your index file locates
 
 Normalisation formula:
-$P(t_j|Q) = \lambda P_{ML}(t_j|Q) + (1-\lambda)\sum P(t_j|t_i)P_{ML}(t_i|Q)$
+
+$$P(t_j|Q) = \lambda P_{ML}(t_j|Q) + (1-\lambda)\sum P(t_j|t_i)P_{ML}(t_i|Q)$$
